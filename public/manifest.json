@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "Atlas AI Education",
+  "short_name": "Atlas AI",
+  "description": "Atlas AI Education (Atlas AI Institute): ধাপে ধাপে AI শিক্ষা, ব্যবহারিক দক্ষতা ও দায়িত্বশীল উদ্ভাবন — 18 structured AI programmes across Foundation, Applied AI, and Professional Development.",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0B1F4B",
+  "theme_color": "#0056D2",
+  "lang": "bn",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

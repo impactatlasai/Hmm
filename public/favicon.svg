@@ -1,0 +1,53 @@
+<svg width="64" height="64" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="leftArm" x1="8" y1="31" x2="20" y2="7" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0047BA"/>
+      <stop offset="55%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="rightArm" x1="20" y1="7" x2="32" y2="31" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0056D2"/>
+      <stop offset="60%" stop-color="#0B1F4B"/>
+      <stop offset="100%" stop-color="#07132F"/>
+    </linearGradient>
+    <linearGradient id="orbitGrad" x1="6" y1="21" x2="34" y2="19" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="sparkGrad" x1="16" y1="16" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Rounded Squircle Tile -->
+  <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bgGrad)" stroke="#CBD5E1" stroke-width="1.2"/>
+
+  <!-- Orbital Ring Behind -->
+  <path d="M7.5 23.2C9.8 19.8 15.2 17.5 21 17.2C27.2 16.9 32.2 18.5 34.2 21" stroke="url(#orbitGrad)" stroke-width="1.8" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Left Monolithic Pillar of A -->
+  <path d="M20 7.2L8.5 31.8H14.2L16.8 25.8H20.2V19.8L18.4 14.8L20 7.2Z" fill="url(#leftArm)"/>
+
+  <!-- Right Monolithic Pillar of A -->
+  <path d="M20 7.2L31.5 31.8H25.8L23.2 25.8H19.8V19.8L21.6 14.8L20 7.2Z" fill="url(#rightArm)"/>
+
+  <!-- Crossbar Connector -->
+  <path d="M16.8 25.8H23.2L20.2 19.8H19.8L16.8 25.8Z" fill="#0056D2" opacity="0.9"/>
+
+  <!-- Forward Orbital Swoop -->
+  <path d="M6.8 23C8.8 25.4 14.2 27.6 20.6 27.4C26.4 27.1 31.2 24.8 33.2 22" stroke="url(#orbitGrad)" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Central AI Nexus Star -->
+  <path d="M20 18C20 20.2 18.5 21.5 16.5 21.5C18.5 21.5 20 22.8 20 25C20 22.8 21.5 21.5 23.5 21.5C21.5 21.5 20 20.2 20 18Z" fill="url(#sparkGrad)"/>
+  <circle cx="20" cy="21.5" r="1.2" fill="#FFFFFF"/>
+
+  <!-- Apex Spark Node -->
+  <circle cx="20" cy="7.5" r="1.6" fill="#38BDF8"/>
+  <circle cx="20" cy="7.5" r="0.8" fill="#FFFFFF"/>
+</svg>
